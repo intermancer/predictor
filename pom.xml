@@ -43,5 +43,12 @@
         <developerConnection>scm:git@github.com:intermancer/predictor.git</developerConnection>
     </scm>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>3.2.1.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>

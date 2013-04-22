@@ -1,7 +1,7 @@
 package com.intermancer.predictor.gene;
 
 import com.intermancer.predictor.data.QuantumConsumer;
-//import com.intermancer.predictor.mutation.Mutable;
+import com.intermancer.predictor.mutation.Mutable;
 
 /**
  * A Gene is a step in an algorithm.
@@ -9,7 +9,7 @@ import com.intermancer.predictor.data.QuantumConsumer;
  * @author johnfryar
  * 
  */
-public interface Gene extends QuantumConsumer {
+public interface Gene extends QuantumConsumer, Mutable {
 
         /**
          * Genes can be "hungry," or require a few feeding cycles before they
